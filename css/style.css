@@ -6,7 +6,7 @@ body{
 ul {
 	list-style:none;
 	margin:0px;
-	background:gray;
+	background:rgb(103, 175, 223);
 	overflow:hidden;
 	width: 100%;
 	height: 50px;
@@ -37,10 +37,26 @@ li:hover{
 	color: rgb(2, 161, 148);
 
 }
- img,.footers {
-	margin-bottom: -470px;
-	margin-right: 20px;
+.footers {
+	margin-bottom: -450px;
+	margin-left: 0px;
 	text-align: center;
+	width: 100%;
+	height: 100px;
+	background:rgb(125, 173, 173);
 	
+}
+
+
+
+.pic{
+	border-radius: 50%;
+	margin-top: -50px;
+	padding: 20px;
+
+}
+p{
+	color: white;
+	margin-top: 10px;
 }
 
