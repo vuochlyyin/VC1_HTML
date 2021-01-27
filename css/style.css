@@ -3,6 +3,7 @@ body{
 	padding:0px;
 	font-family:sans-serif;
 	background:rgb(223, 223, 214);
+	/* overflow: hidden; */
 }
 ul {
 	list-style:none;
@@ -40,6 +41,7 @@ li:hover{
 }
 .footers {
 	margin-bottom: -450px;
+	margin-top: -300px;
 	margin-left: 0px;
 	text-align: center;
 	width: 100%;
@@ -59,7 +61,7 @@ li:hover{
 
 }
 .text{
-	color: white;
+	color:white;
 	margin-top: 10px;
 	font-size: 20px;
 }
@@ -74,7 +76,7 @@ li:hover{
 .data{
 	margin-left: 200px;
 }
-input[type="submit"]{
+input[type="send"]{
 	background:rgb(83, 147, 199);
 	width: 120px;
 	height: 40px;
@@ -82,7 +84,7 @@ input[type="submit"]{
 	border: none;
 	font-size: 20px;
 }
-h2{
+h2,h3{
 	text-align: center;
 	color: rgb(22, 132, 196);
 }
@@ -102,31 +104,68 @@ h2{
 	margin-top: 50px;
 	
 }
-.btn {
-	background-color: DodgerBlue;
-	border: none;
-	color: white;
-	padding: 12px 30px;
-	cursor: pointer;
-	font-size: 20px;
-	border-radius: 10px;
-  }
-.btn:hover {
-	background-color: RoyalBlue;
-  }
-/* .banner{
-	position: relative; width: 100%; margin: 0 auto;
+.txt{
+	width: 50%;
+	height: 200px;
+	background:rgba(243, 188, 161, 0.342);
+	position: relative;
+	top: 400px;
 }
-.banner img{
-	width: 100%;
+.banner{
+	width: 60%;
+	height: 250px;
+	background: rgba(185, 183, 183, 0.534);
+	position: relative;
+	top: -760px;
+	left:  200px;
 }
-.heading{
-	color: orange;
-	position: absolute;
-	top: ;
-	left: 70%;
+.tx{
+	
+	text-align: center;
+	font-size: 40px;
+	font-family: serif;
 
-} */
+}
+.viewpro{
+	position: relative;
+	top: -760px;
+	left:  450px;
+	
+}
+.view{
+	border-radius: 50%;
+}
+input[type="submit"]{
+	background:rgba(136, 133, 133, 0.685);
+	border: none;
+	border-radius: 10px;
+	width: 100px;
+	height: 40px;
+	display: flex;
+	margin-left: 50px;
+	font-family: serif;
+	font-size: 15px;
+	
+}
+
+fieldset{
+	width: 50%;
+	height: 330px;
+	position: relative;
+	left: 660px;
+	top:-360px ;
+	background: rgba(232, 228, 247, 0.63);
+	margin-top: 5px;
+}
+.map{
+	margin-top: 20px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+	width: 90%;
+	height: 30px;
+	
+}
+
 
 
 
