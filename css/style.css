@@ -189,14 +189,14 @@ input[type="text"],input[type="email"],input[type="password"]{
 .btn:hover {
 	background-color: RoyalBlue;
 }
-.skill{
-	display: flex;
+.column{
+	float: left;
+	width: 25%;
+	height: 20vh;
 }
-.web{
+.web,h5,h3{
 	border-radius: 50%;
-	margin-left: 100px;
-	
+	padding-left: 20px;
+	color: rgb(80, 182, 212);
 }
-
-
 
