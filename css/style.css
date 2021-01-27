@@ -49,7 +49,12 @@ li:hover{
 	
 }
 
-
+input[type="send"]:hover{
+	background-color: rgb(43, 43, 231);
+}
+input[type="submit"]:hover{
+	background-color: rgb(85, 84, 84);
+}
 
 .pic{
 	border-radius: 50%;
@@ -163,6 +168,19 @@ input[type="text"],input[type="email"],input[type="password"]{
 	width: 90%;
 	height: 30px;
 	
+}
+.btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 10px;
+	
+}
+.btn:hover {
+	background-color: RoyalBlue;
 }
 
 
