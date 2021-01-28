@@ -2,7 +2,7 @@ body{
 	margin:0px;
 	padding:0px;
 	font-family:sans-serif;
-	background:#cfdac8;
+	overflow-x: hidden;
 }
 ul {
 	list-style:none;
@@ -42,6 +42,7 @@ li:hover{
 	color: #75cfb8;
 	text-decoration: underline;
 }
+
 .footers {
 	margin-bottom: -450px;
 	margin-top: -300px;
@@ -116,6 +117,10 @@ h2{
 	
 	
 }
+.ed{
+	width: 100%;
+ 	height: 100%;
+}
 .new{
 	background: rgba(210, 250, 250, 0.479);
 	width: 80%;
@@ -124,7 +129,7 @@ h2{
 	top: -120vh;
 	left: 100px;
 	border-radius: 15px;
-	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family:serif;
 }
 .new,h2,h1,p{
 	color: rgb(43, 35, 35);
@@ -142,16 +147,15 @@ h2{
 	top: 400px;
 }
 .bg{
-	width: 100%; 
-	height: auto;
+	background-image: url(/image/cv.jpg);
+	background-size: cover;
+	margin-top: -3%;
 }
 .banner{
-	width: 60%;
-	height: 250px;
+	width: 50%;
+	height: 200px;
 	background: #cfdac898;
-	position: relative;
-	top: -730px;
-	left:  200px;
+	margin-left: 27%;
 }
 .tx{
 	
@@ -162,25 +166,28 @@ h2{
 }
 .viewpro{
 	position: relative;
-	top: -720px;
-	left:  450px;
+	left:  40%;
+	
+	
 	
 }
 .view{
 	border-radius: 50%;
-	width: 200px; 
-	height: 200px;
+	width: 250px; 
+	height: 250px;
+	margin-bottom: 5%;
 }
 input[type="submit"]{
 	background:#cdd0cb;
 	border: none;
 	border-radius: 10px;
-	width: 100px;
-	height: 40px;
+	width: 130px;
+	height: 50px;
 	display: flex;
 	margin-left: 50px;
 	font-family: serif;
-	font-size: 15px;
+	font-size: 20px;
+	text-decoration: underline;
 	
 }
 
@@ -213,7 +220,6 @@ input[type="text"],input[type="email"],input[type="password"]{
 	
 }
 
-
 .btn:hover {
 	background-color:#cdd0cb;
 }
@@ -228,58 +234,31 @@ input[type="text"],input[type="email"],input[type="password"]{
 	color: #03506f;
 }
 
-
-@media(max-width:500px){
-	ul {
-		list-style:none;
-		margin:0px;
-		background:#7c9473;
-		overflow:hidden;
-		width: 100%;
-		height: 50px;
-		display: flex;
-		text-align: center;
-		align-items: center;
-	
-	}
+/* 1 menu */
+@media(max-width:420px){
 	li{
 		float:left;
-		display: inline;
 	}
 	li a {
 		
-		margin: 30px;
+		margin: 10px;
 		color: #03506f;
-		padding: 10px ;
+		padding: 0px ;
 		text-decoration:none;
 	}
-	a ,h1{
-		text-transform: uppercase;
-	}
-	li:hover{
-		background:#cdd0cb;
-		height: 50px;
-		display: flex;
-		text-align: center;
-		align-items: center;
-		color: rgb(2, 161, 148);
 	
-	}
+	
 }
 
-/* 1 */
-@media(max-width:500px){
+/* 2 */
+@media(max-width:420px){
 	.banner{
-		width: 60%;
-		height: 150px;
+		width: 100%;
+		height: 500px;
 		background: rgba(185, 183, 183, 0.534);
 		position: relative;
-		top: -500px;
+		top:-540px;
 		left:  100px;
-	}
-	.bg{
-		width: 100%; 
-		height: 90vh;
 	}
 	.tx{
 		text-align: center;
@@ -289,7 +268,7 @@ input[type="text"],input[type="email"],input[type="password"]{
 	}
 	.viewpro{
 		position: relative;
-		top: -480px;
+		top: -500px;
 		left:  150px;
 		
 	}
@@ -315,8 +294,8 @@ input[type="text"],input[type="email"],input[type="password"]{
 	
 	
 }
-/* 2 */
-@media(max-width:500px){
+/* 3 */
+@media(max-width:420px){
 	.cv{
 		
 		display: inline;	
@@ -338,5 +317,62 @@ input[type="text"],input[type="email"],input[type="password"]{
 	}
 	h3{
 		margin-right: 300px;
+	}
+}
+/* 4 */
+@media(max-width:420px){
+	.ed{
+		width: 100%;
+		height: 700px;
+	}
+	.new{
+		background: rgba(210, 250, 250, 0.479);
+		width: 100%;
+		height: 350px;
+		position: relative;
+		top: -100vh;
+		left: 10px;
+		border-radius: 15px;
+		font-family:serif;
+	}
+	.new,h2,h1{
+		color: rgb(43, 35, 35);
+		font-size: 10px;
+	}
+	.edu2{
+		margin-left:55%;
+		margin-top: -250px;	
+	}
+	.edu1{
+		margin-left: 70px;
+		
+	}
+}
+/* 5 */
+@media(max-width:420px){
+	fieldset{
+		width: 650px;
+		height: 350px;
+		position: relative;
+		left: 10px;
+		top:0px ;
+		padding: 10px;
+		background: rgba(210, 250, 250, 0.603);
+		margin-top: 5px;
+	}
+	.map{
+		margin-top: 20px;
+	}
+	input[type="text"],input[type="email"],input[type="password"]{
+		width: 90%;
+		height: 30px;
+	}
+	.footers {
+		margin-bottom: -450px;
+		margin-top: -40px;
+		margin-left: 0px;
+		text-align: center;
+		width: 100%;
+		height: 120px;
 	}
 }
