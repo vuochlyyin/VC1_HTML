@@ -43,16 +43,7 @@ li:hover{
 	text-decoration: underline;
 }
 
-.footers {
-	margin-bottom: -450px;
-	margin-top: -300px;
-	margin-left: 0px;
-	text-align: center;
-	width: 100%;
-	height: 120px;
-	/* background:rgb(192, 206, 206); */
-	
-}
+
 
 input[type="send"]:hover{
 	background-color:#cfdac8;
@@ -194,11 +185,19 @@ input[type="submit"]{
 fieldset{
 	width: 50%;
 	height: 330px;
-	position: relative;
-	left: 660px;
-	top:-360px ;
+	margin-left:90vh;
+	margin-top: -355px;	
 	background: rgba(210, 250, 250, 0.603);
-	margin-top: 5px;
+	
+}
+.footers {
+	margin-bottom: -500px;
+	margin-left: 0px;
+	text-align: center;
+	width: 100%;
+	height: 120px;
+	
+	
 }
 .map{
 	margin-top: 20px;
@@ -321,58 +320,29 @@ input[type="text"],input[type="email"],input[type="password"]{
 }
 /* 4 */
 @media(max-width:420px){
-	.ed{
-		width: 100%;
-		height: 700px;
-	}
-	.new{
-		background: rgba(210, 250, 250, 0.479);
-		width: 100%;
-		height: 350px;
-		position: relative;
-		top: -100vh;
-		left: 10px;
-		border-radius: 15px;
-		font-family:serif;
-	}
-	.new,h2,h1{
-		color: rgb(43, 35, 35);
-		font-size: 10px;
-	}
-	.edu2{
-		margin-left:55%;
-		margin-top: -250px;	
-	}
-	.edu1{
-		margin-left: 70px;
-		
-	}
+	
 }
+
+	
+
 /* 5 */
 @media(max-width:420px){
 	fieldset{
-		width: 650px;
-		height: 350px;
-		position: relative;
-		left: 10px;
-		top:0px ;
-		padding: 10px;
+		width: 50%;
+		height: 330px;
+		margin-top: -400px;	
 		background: rgba(210, 250, 250, 0.603);
-		margin-top: 5px;
-	}
-	.map{
-		margin-top: 20px;
-	}
-	input[type="text"],input[type="email"],input[type="password"]{
-		width: 90%;
-		height: 30px;
+		
 	}
 	.footers {
-		margin-bottom: -450px;
-		margin-top: -40px;
+		margin-bottom: -500px;
 		margin-left: 0px;
 		text-align: center;
 		width: 100%;
 		height: 120px;
+		
+		
 	}
+	
+	
 }
