@@ -385,6 +385,7 @@ input[type="text"],input[type="email"],input[type="password"],textarea{
 	.header{
 		width: 100%;
 		padding: 50px;
+		margin-left: -15%;
 		background-image: url(../image/a.jpg);
 		background-size: cover;
 		background-position: no-repeat;
@@ -401,15 +402,16 @@ input[type="text"],input[type="email"],input[type="password"],textarea{
 	.row2 {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 5%;
-		margin-left: -90px;
+		margin-top: -5%;
+		margin-left:10px;
+		margin-right: 20px;
 	}
 	.size{
 		width: 80px;
 		height: 80px;
 	}
 	.column2 p{
-		font-size: 15px;
+		font-size: 10px;
 	}
 	.rowEdu .edu p {
 		margin-left: -10%;
